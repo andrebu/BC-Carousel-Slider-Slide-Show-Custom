@@ -12,7 +12,7 @@ BC Custom Carousel Slider Slide Show
 
 ## Using
 
-    Just install and it'll do the work for you!  Currently only for WordPress.
+    Just install and it'll do the work for you!  
 
 ## Resources
 
