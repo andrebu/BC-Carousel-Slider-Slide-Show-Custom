@@ -53,3 +53,104 @@
 	    12 - <strong>This</strong> is another example of a <em>HTML</em> caption with an even cooler<a href="http://andrebulatov.com"> link</a>.
 	</div>
 </div>
+<<<<<<< HEAD
+=======
+-->
+<!-- //slide-show -->   
+
+<!-- http://docs.dev7studios.com/jquery-plugins/nivo-slider -->
+<!-- http://cdnjs.com/libraries/jquery-nivoslider -->
+
+<!--
+<link rel="stylesheet" href="nivo-slider.css" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
+</script>
+-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nivoslider/3.2/nivo-slider.min.css" type="text/css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nivoslider/3.2/jquery.nivo.slider.pack.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
+</script>
+
+
+<div id="slider" class="nivoSlider">
+	<!-- Slide #1 -->
+    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel2.jpg?t=1417570482" alt="" title="" data-thumb="" data-transition="" />
+	<!-- Slide #2 -->
+    <a href="http://dev7studios.com">
+	    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel1.jpg?t=1417570482" alt="" title="#htmlcaption"  data-thumb="" data-transition=""/>
+    </a>
+	<!-- Slide #3 -->
+    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel2.jpg?t=1417570482" alt="" title="This is an example of a caption"  data-thumb="" data-transition=""/>
+	<!-- Slide #4 -->
+    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel1.jpg?t=1417570482" alt="" title="" data-thumb="" data-transition=""/>
+</div>
+<div id="htmlcaption" class="nivo-html-caption">
+    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+</div>
+
+<!--
+<div id="slider">
+    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel2.jpg?t=1417570482" alt="" data-thumb="images/up_thumb.jpg" />
+    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel1.jpg?t=1417570482" alt="" data-thumb="images/monstersinc_thumb.jpg" />
+    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel2.jpg?t=1417570482" alt="" data-thumb="images/nemo_thumb.jpg" />
+    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel2.jpg?t=1417570482" alt="" data-thumb="images/walle_thumb.jpg" />
+</div>
+-->
+
+<!-- <img src="images/slide1.jpg" alt="" data-transition="slideInLeft" /> -->
+
+<script type="text/javascript">
+    $(window).load(function() {
+	$('#slider').nivoSlider({
+	    effect: 'random',               // Specify sets like: 'fold,fade,sliceDown'
+	    slices: 15,                     // For slice animations
+	    boxCols: 8,                     // For box animations
+	    boxRows: 4,                     // For box animations
+	    animSpeed: 500,                 // Slide transition speed
+	    pauseTime: 3000,                // How long each slide will show
+	    startSlide: 0,                  // Set starting Slide (0 index)
+	    directionNav: true,             // Next & Prev navigation
+	    controlNav: true,               // 1,2,3... navigation
+	    controlNavThumbs: false,        // Use thumbnails for Control Nav
+	    pauseOnHover: true,             // Stop animation while hovering
+	    manualAdvance: false,           // Force manual transitions
+	    prevText: 'Prev',               // Prev directionNav text
+	    nextText: 'Next',               // Next directionNav text
+	    randomStart: false,             // Start on a random slide
+	    beforeChange: function(){},     // Triggers before a slide transition
+	    afterChange: function(){},      // Triggers after a slide transition
+	    slideshowEnd: function(){},     // Triggers after all slides have been shown
+	    lastSlide: function(){},        // Triggers when last slide is shown
+	    afterLoad: function(){}         // Triggers when slider has loaded
+	});
+    });
+
+// Effect Parameters    
+// -----------------
+// sliceDown
+// sliceDownLeft
+// sliceUp
+// sliceUpLeft
+// sliceUpDown
+// sliceUpDownLeft
+// fold
+// fade
+// random
+// slideInRight
+// slideInLeft
+// boxRandom
+// boxRain
+// boxRainReverse
+// boxRainGrow
+// boxRainGrowReverse
+</script>
+>>>>>>> FETCH_HEAD
