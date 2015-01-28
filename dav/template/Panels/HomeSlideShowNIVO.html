@@ -1,104 +1,55 @@
-<!--
-<div class="slide-show slide-show-render slide-show-render-full flexslider Panel" data-swap-frequency="%%GLOBAL_SwapFrequency%%" id="HomeSlideShow">
-    <ol class="slides">
-        %%SNIPPET_SlideList%%
-    </ol>
+<div class="slider-wrapper theme-default">
+    <div class="ribbon"></div>
+	<div id="sliderDesktop" class="nivoSlider">
+<!-- Slide #1 -->
+	    <img src="/content/images/slider/banner5.gif" alt="" title="" data-thumb="" data-transition="" />
+<!-- Slide #2 -->
+<!-- To make the whole slide a link, just put it inside of an anchor tag "<a>" like this slide #2 here -->
+	    <a href="http://andrebulatov.com">
+		    <img src="/content/images/slider/GLOWBANNER.gif" alt="" title=""  data-thumb="" data-transition=""/>
+	    </a>
+<!-- Slide #3 -->
+	    <img src="/content/images/slider/COSMICBANNER.jpg" alt="" title="#htmlcaption3"  data-thumb="" data-transition=""/>
+<!-- Slide #4 -->
+	    <img src="/content/images/slider/handpipes.jpg" alt="" title="This is an example of a simpler to use caption" data-thumb="" data-transition=""/>
+<!-- Slide #5 -->
+	    <img src="/content/images/slider/purr2gobanner.png" alt="" title="Andre says this caption is even easier to use..." data-thumb="" data-transition="" />
+<!-- Slide #6 -->
+	    <a href="http://andrebulatov.com">
+		    <img src="/content/images/slider/tornadosmall.gif" alt="" title="#htmlcaption6"  data-thumb="" data-transition=""/>
+	    </a>
+<!-- Slide #7 -->
+	    <img src="/content/images/slider/pipesunder100tile.jpg" alt="" title="#htmlcaption7"  data-thumb="" data-transition=""/>
+<!-- Slide #8 -->
+	    <img src="/content/images/slider/COSMICBANNER.jpg" alt="" title=""  data-thumb="" data-transition=""/>
+<!-- Slide #9 -->
+	    <img src="/content/images/slider/handpipes.jpg" alt="" title="" data-thumb="" data-transition=""/>
+<!-- Slide #10 -->
+	    <img src="/content/images/slider/purr2gobanner.png" alt="" title="#htmlcaption10" data-thumb="" data-transition="" />
+<!-- Slide #11 -->
+	    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel2.jpg" alt="" title="I think this image size is better for desktop AND mobile...." data-thumb="" data-transition="" />
+<!-- Slide #12 -->
+	    <a href="http://andrebulatov.com">
+		    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel1.jpg" alt="" title="...as particularly on mobile, we will be making better use of the screen and slider with this width to height ratio."  data-thumb="" data-transition=""/>
+	    </a>
+<!-- Slide #13 -->
+	    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel2.jpg" alt="" title="I believe it's 960x450px "  data-thumb="" data-transition=""/>
+<!-- Slide #14 -->
+	    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel1.jpg" alt="" title="This is an example of a simpler to use caption" data-thumb="" data-transition=""/>
+	</div>
+	<div id="htmlcaption3" class="nivo-html-caption">
+	    <strong>This</strong> is an example of awesome <em>HTML</em> captions with <a href="http://andrebulatov.com">links!</a> - 3.
+	</div>
+	<div id="htmlcaption6" class="nivo-html-caption">
+	    6 - <strong>This</strong> is another example of a <em>HTML</em> caption with an even cooler<a href="http://andrebulatov.com"> link</a>.
+	</div>
+	<div id="htmlcaption7" class="nivo-html-caption">
+	    7 - <strong>This</strong> is another example of a <em>HTML</em> caption with an even cooler<a href="http://andrebulatov.com"> link</a>.
+	</div>
+	<div id="htmlcaption10" class="nivo-html-caption">
+	    10 - <strong>This</strong> is another example of a <em>HTML</em> caption with an even cooler<a href="http://andrebulatov.com"> link</a>.
+	</div>
+	<div id="htmlcaption12" class="nivo-html-caption">
+	    12 - <strong>This</strong> is another example of a <em>HTML</em> caption with an even cooler<a href="http://andrebulatov.com"> link</a>.
+	</div>
 </div>
--->
-<!-- //slide-show -->​
-
-<!-- http://docs.dev7studios.com/jquery-plugins/nivo-slider -->
-<!-- http://cdnjs.com/libraries/jquery-nivoslider -->
-
-<!--
-<link rel="stylesheet" href="nivo-slider.css" type="text/css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
-<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(window).load(function() {
-    $('#slider').nivoSlider();
-});
-</script>
--->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nivoslider/3.2/nivo-slider.min.css" type="text/css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nivoslider/3.2/jquery.nivo.slider.pack.min.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-$(window).load(function() {
-    $('#slider').nivoSlider();
-});
-</script>
-
-
-<div id="slider" class="nivoSlider">
-	<!-- Slide #1 -->
-    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel2.jpg?t=1417570482" alt="" title="" data-thumb="" data-transition="" />
-	<!-- Slide #2 -->
-    <a href="http://dev7studios.com">
-	    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel1.jpg?t=1417570482" alt="" title="#htmlcaption"  data-thumb="" data-transition=""/>
-    </a>
-	<!-- Slide #3 -->
-    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel2.jpg?t=1417570482" alt="" title="This is an example of a caption"  data-thumb="" data-transition=""/>
-	<!-- Slide #4 -->
-    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel1.jpg?t=1417570482" alt="" title="" data-thumb="" data-transition=""/>
-</div>
-<div id="htmlcaption" class="nivo-html-caption">
-    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
-</div>
-
-<!--
-<div id="slider">
-    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel2.jpg?t=1417570482" alt="" data-thumb="images/up_thumb.jpg" />
-    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel1.jpg?t=1417570482" alt="" data-thumb="images/monstersinc_thumb.jpg" />
-    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel2.jpg?t=1417570482" alt="" data-thumb="images/nemo_thumb.jpg" />
-    <img src="http://cdn3.bigcommerce.com/s-mixi7d/product_images/theme_images/ClassicCarousel2.jpg?t=1417570482" alt="" data-thumb="images/walle_thumb.jpg" />
-</div>
--->
-
-<!-- <img src="images/slide1.jpg" alt="" data-transition="slideInLeft" /> -->
-
-<script type="text/javascript">
-    $(window).load(function() {
-	$('#slider').nivoSlider({
-	    effect: 'random',               // Specify sets like: 'fold,fade,sliceDown'
-	    slices: 15,                     // For slice animations
-	    boxCols: 8,                     // For box animations
-	    boxRows: 4,                     // For box animations
-	    animSpeed: 500,                 // Slide transition speed
-	    pauseTime: 3000,                // How long each slide will show
-	    startSlide: 0,                  // Set starting Slide (0 index)
-	    directionNav: true,             // Next & Prev navigation
-	    controlNav: true,               // 1,2,3... navigation
-	    controlNavThumbs: false,        // Use thumbnails for Control Nav
-	    pauseOnHover: true,             // Stop animation while hovering
-	    manualAdvance: false,           // Force manual transitions
-	    prevText: 'Prev',               // Prev directionNav text
-	    nextText: 'Next',               // Next directionNav text
-	    randomStart: false,             // Start on a random slide
-	    beforeChange: function(){},     // Triggers before a slide transition
-	    afterChange: function(){},      // Triggers after a slide transition
-	    slideshowEnd: function(){},     // Triggers after all slides have been shown
-	    lastSlide: function(){},        // Triggers when last slide is shown
-	    afterLoad: function(){}         // Triggers when slider has loaded
-	});
-    });
-
-// Effect Parameters    
-// -----------------
-// sliceDown
-// sliceDownLeft
-// sliceUp
-// sliceUpLeft
-// sliceUpDown
-// sliceUpDownLeft
-// fold
-// fade
-// random
-// slideInRight
-// slideInLeft
-// boxRandom
-// boxRain
-// boxRainReverse
-// boxRainGrow
-// boxRainGrowReverse
-</script>
