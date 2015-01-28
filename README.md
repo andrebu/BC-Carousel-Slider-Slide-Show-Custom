@@ -16,6 +16,8 @@ BC Custom Carousel Slider Slide Show
 
 ## Resources
 
+1. [Nivo Slider Swipe Navigation for Touch Screens - Using Hammer.js by Will Rees](http://willrees.com/2013/02/make-your-nivo-slider-touch-capable/) -- this solution works but I don't like the swipe functionality.
+
 
 ## Some BigCommerce modules I made
 
