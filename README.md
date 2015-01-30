@@ -3,7 +3,9 @@ BC Custom Carousel Slider Slide Show
 
 ##To Do
 
-1. 
+1. Add installation instuctions
+2. Appify
+3. Create webpage and add module to list
 
 
 ## Installation
