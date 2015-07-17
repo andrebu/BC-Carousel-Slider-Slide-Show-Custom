@@ -18,7 +18,11 @@ BC Custom Carousel Slider Slide Show
 
 ## Resources
 
-1. [27+ Free jQuery Image Slider Carousel Slideshows - AndreBulatov.com](http://andrebulatov.com/27-free-jquery-image-slider-carousel-slideshows-2/)
+- [27+ Free jQuery Image Slider Carousel Slideshows - AndreBulatov.com](http://andrebulatov.com/27-free-jquery-image-slider-carousel-slideshows-2/)
+- [Simple fadeIn and visibility in jQuery](http://stackoverflow.com/questions/10942098/simple-fadein-and-visibility-in-jquery)
+- [Prevent bxslider FOUC from stacking images #629](https://github.com/chrisblakley/Nebula/issues/629)
+- []()
+- []()
 
 
 ## Some BigCommerce modules I made
